@@ -2,10 +2,7 @@ module github.com/p1gd0g/helloworld
 
 go 1.17
 
-require (
-	google.golang.org/grpc v1.41.0
-	google.golang.org/grpc/examples v0.0.0-20210929235846-adb21c461005
-)
+require google.golang.org/grpc v1.41.0
 
 require (
 	github.com/golang/protobuf v1.4.3 // indirect
